@@ -4,8 +4,7 @@
 
 - **Fitur Utama**:
   - Pengguna harus memasukkan username dan password untuk mengakses aplikasi.
-  - Username dan password yang benar adalah `admin/admin`.
-  - Menggunakan **Shared Preferences** untuk menyimpan status login dan username.
+  - Username dan password yang benar adalah `admin/admin123`.
   - Jika login berhasil, pengguna akan diarahkan ke halaman utama (home).
   - Jika gagal, pesan kesalahan akan ditampilkan.
 
@@ -22,7 +21,6 @@
 **HomePage** adalah halaman utama yang dituju setelah pengguna berhasil login.
 
 - **Fitur Utama**:
-  - Menampilkan teks sambutan yang diambil dari **Shared Preferences**, menampilkan nama pengguna yang sedang login.
   - Halaman ini adalah pintu masuk utama untuk mengakses fitur lain dalam aplikasi.
   
 - **Fungsi Penting**:
@@ -37,8 +35,6 @@
   - Menampilkan penjelasan singkat mengenai tujuan dari aplikasi ini.
   - Menampilkan informasi tentang pengembang (nama, NIM).
   - Memiliki tombol **Kembali** yang mengarahkan pengguna kembali ke **HomePage**.
-  - Menggunakan **Card** untuk menampilkan informasi dalam bentuk kotak yang lebih terstruktur dan estetis.
-  - Halaman ini juga dilengkapi dengan gradient background untuk mempercantik tampilan.
 
 ## 4. `sidemenu.dart`
 
